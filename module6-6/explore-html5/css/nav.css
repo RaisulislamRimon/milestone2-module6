@@ -1,4 +1,4 @@
-nav ul {
+nav > ul {
   display: flex;
 }
 nav li {
@@ -17,4 +17,11 @@ nav li a {
 
 nav li a:hover {
   color: white;
+}
+
+.dropdown {
+  display: none;
+}
+.main-dropdown:hover > .dropdown {
+  display: block;
 }
