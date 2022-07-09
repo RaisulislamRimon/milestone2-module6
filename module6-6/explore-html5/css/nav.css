@@ -22,6 +22,7 @@ nav li a:hover {
 .dropdown {
   display: none;
 }
-.main-dropdown:hover > .dropdown {
+/* .main-dropdown:hover > .dropdown { */
+nav > ul > li:hover > ul {
   display: block;
 }
