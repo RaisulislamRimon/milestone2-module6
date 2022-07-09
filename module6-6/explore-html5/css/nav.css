@@ -6,8 +6,7 @@ nav li {
   margin: 10px 20px;
   padding: 10px 20px;
 }
-nav li:hover,
-nav li:hover > a {
+nav li:hover {
   background-color: aqua;
 }
 
