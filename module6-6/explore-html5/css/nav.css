@@ -25,4 +25,5 @@ nav li a:hover {
 /* .main-dropdown:hover > .dropdown { */
 nav > ul > li:hover > ul {
   display: block;
+  position: absolute;
 }
