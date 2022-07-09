@@ -6,8 +6,10 @@ nav li {
   margin: 10px 20px;
   padding: 10px 20px;
 }
-nav li:hover {
+nav li:hover,
+nav li:hover > a {
   background-color: aqua;
+  color: white;
 }
 nav li a {
   text-decoration: none;
@@ -15,12 +17,14 @@ nav li a {
   font-size: 1.5rem;
 }
 
-nav li a:hover {
+/* nav li a:hover {
   color: white;
-}
+} */
 
 .dropdown {
   display: none;
+  background-color: rgb(108, 205, 212);
+  padding: 0;
 }
 /* .main-dropdown:hover > .dropdown { */
 nav > ul > li:hover > ul {
