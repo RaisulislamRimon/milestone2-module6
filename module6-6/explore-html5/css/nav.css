@@ -9,6 +9,9 @@ nav li {
 nav li:hover,
 nav li:hover > a {
   background-color: aqua;
+}
+
+nav li:hover > a {
   color: white;
 }
 nav li a {
